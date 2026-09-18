@@ -1,0 +1,6 @@
+{
+  "name": "QR Scanner",
+  "description": "Scan QR codes, automatically save scanned data with date and time stamps, and export the complete history to an Excel (.xlsx) file.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Viewfinder corners (safe zone 26 to 82) -->
+    <!-- Top-Left bracket -->
+    <path
+        android:strokeColor="#14B8A6"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M38,28 L30,28 A4,4 0 0,0 26,32 L26,40" />
+
+    <!-- Top-Right bracket -->
+    <path
+        android:strokeColor="#14B8A6"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M70,28 L78,28 A4,4 0 0,1 82,32 L82,40" />
+
+    <!-- Bottom-Left bracket -->
+    <path
+        android:strokeColor="#14B8A6"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M26,68 L26,76 A4,4 0 0,0 30,80 L38,80" />
+
+    <!-- Bottom-Right bracket -->
+    <path
+        android:strokeColor="#14B8A6"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M82,68 L82,76 A4,4 0 0,1 78,80 L70,80" />
+
+    <!-- QR Finder Pattern: Top-Left Outer Box -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M34,36 h14 v14 h-14 z M37,39 v8 h8 v-8 z" />
+    <!-- QR Finder Pattern: Top-Left Inner Dot -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M39,41 h4 v4 h-4 z" />
+
+    <!-- QR Finder Pattern: Top-Right Outer Box -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M60,36 h14 v14 h-14 z M63,39 v8 h8 v-8 z" />
+    <!-- QR Finder Pattern: Top-Right Inner Dot -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M65,41 h4 v4 h-4 z" />
+
+    <!-- QR Finder Pattern: Bottom-Left Outer Box -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M34,58 h14 v14 h-14 z M37,61 v8 h8 v-8 z" />
+    <!-- QR Finder Pattern: Bottom-Left Inner Dot -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M39,63 h4 v4 h-4 z" />
+
+    <!-- QR Data Modules / Bits -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M52,36 h4 v4 h-4 z
+                          M52,44 h4 v4 h-4 z
+                          M60,54 h4 v4 h-4 z
+                          M68,54 h4 v4 h-4 z
+                          M52,60 h4 v4 h-4 z
+                          M52,68 h4 v4 h-4 z
+                          M60,62 h6 v4 h-6 z
+                          M68,68 h6 v4 h-6 z" />
+
+    <!-- Excel mini badge icon overlay at bottom right corner -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M64,62 h14 a2,2 0 0,1 2,2 v12 a2,2 0 0,1 -2,2 h-14 a2,2 0 0,1 -2,-2 v-12 a2,2 0 0,1 2,-2 z" />
+    <!-- White 'X' inside green badge -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M68,66 L74,74 M74,66 L68,74" />
+
+    <!-- Laser Scanning Beam across center -->
+    <path
+        android:pathData="M24,53 L84,53">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="24"
+                android:startY="53"
+                android:endX="84"
+                android:endY="53"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0022D3EE" />
+                <item android:offset="0.2" android:color="#FF06B6D4" />
+                <item android:offset="0.5" android:color="#FFFFFFFF" />
+                <item android:offset="0.8" android:color="#FF06B6D4" />
+                <item android:offset="1.0" android:color="#0022D3EE" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Laser glow line -->
+    <path
+        android:strokeColor="#6638BDF8"
+        android:strokeWidth="3.5"
+        android:pathData="M28,53 L80,53" />
+
+</vector>
